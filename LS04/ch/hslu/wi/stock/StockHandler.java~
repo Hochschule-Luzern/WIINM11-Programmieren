@@ -1,0 +1,8 @@
+package ch.hslu.wi.stock;
+
+public class StockHandler {
+	public void execute() {
+		
+		W
+	}
+}

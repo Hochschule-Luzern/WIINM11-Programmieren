@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Text layoutX="94.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMI Calculator for adults">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="94.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" />
+      <Text layoutX="95.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size in cm:" />
+      <Text layoutX="95.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weight in kg:" />
+      <TextField fx:id="inWeight" layoutX="200.0" layoutY="184.0" />
+      <TextField fx:id="inSize" layoutX="200.0" layoutY="137.0" />
+      <Button fx:id="doCalculate" layoutX="200.0" layoutY="297.0" mnemonicParsing="false" onAction="#calculateBMI" text="Calculate BMI" />
+      <Label fx:id="outBMI" layoutX="200.0" layoutY="243.0" text="Label" />
+      <ComboBox fx:id="inAge" layoutX="200.0" layoutY="95.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+Aufgabe:   (Beispiel 06_IO)
+
+
+Ändern Sie den Programmablauf des Files Intro_mit_Input.java folgendermassen:
+
+
+1. Zuerst soll eine Begrüssung kommen in folgender Art:
+   "Guten Tag
+    Sie sind ein(e) StudentIn der Hochschule Luzern Wirtschaft.
+
+    Wie ist ihr Name: "
+
+2. Nach dem Eingeben des Nahmens soll auch das Geburtsjahr eingegeben
+   werden durch den Benutzer:
+
+   "In welchem Jahr sind Sie geboren: "
+   
+3. Das Programm soll das Alter der StudentIn berechnen.
+
+4. Das Programm soll abschliessend folgende ausgeben:
+
+   "Ok - ich habe verstanden: 
+   Sie heissen <eigegebener Name> und sind <berechnetes Alter> Jahre alt!
+   Ich wünsche Ihnen von Herzen ein gutes Studium an der HSLU!!! "
+   
+

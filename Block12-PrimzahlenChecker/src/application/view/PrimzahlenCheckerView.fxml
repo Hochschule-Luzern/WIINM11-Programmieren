@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.PrimzahlenCheckerController">
+   <children>
+      <Text fill="#48ff00" layoutX="72.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Natürliche Zahl eingeben: " />
+      <TextField id="txtZahl" fx:id="txtZahl" layoutX="72.0" layoutY="74.0" prefHeight="31.0" prefWidth="80.0" text="1">
+         <effect>
+            <Reflection />
+         </effect>
+      </TextField>
+      <Button fx:id="btCheck" layoutX="169.0" layoutY="74.0" mnemonicParsing="false" text="Calculate that BITCH!">
+         <effect>
+            <DropShadow color="RED" />
+         </effect>
+      </Button>
+      <Label id="lblResultat" fx:id="lblResultat" layoutX="71.0" layoutY="150.0" prefHeight="31.0" prefWidth="242.0" text=" ">
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Label>
+      <Label id="lblError" fx:id="lblError" layoutX="69.0" layoutY="202.0" prefHeight="31.0" prefWidth="233.0" text=" " textFill="#ff007a">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Comic Sans MS Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>
